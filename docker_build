@@ -1,0 +1,2 @@
+docker build -t demoapp1 /home/edureka/demo/topmovies/
+docker run --rm -p 4200:4200 --name "TopMovies1" demoapp1
